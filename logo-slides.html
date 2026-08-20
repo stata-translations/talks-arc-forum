@@ -6,22 +6,28 @@
 <script src="logo-slides_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="logo-slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="logo-slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="logo-slides_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.33">
+<link href="logo-slides_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Stephen Thompson">
-  <meta name="dcterms.date" content="2026-07-10">
-  <title>Stata to R Workshop</title>
+  <meta name="dcterms.date" content="2026-08-25">
+  <title>Code Translation with Claude - Stata2R</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="logo-slides_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="logo-slides_files/libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -96,7 +102,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="logo-slides_files/libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="logo-slides_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="logo-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="logo-slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -195,13 +201,13 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-    <h1 class="title">Stata to R Workshop</h1>
+    <h1 class="title">Code Translation with Claude - Stata2R</h1>
         <figure>
-      <img src="https://avatars.githubusercontent.com/u/278628511?s=400&amp;u=ba33ed091d293c8e9da8789d491a2c1964c3a53c&amp;v=4" width="30%" alt="The Stata2R Logo, an R overlaid with white squares.">
+      <img src="https://avatars.githubusercontent.com/u/278628511?s=400&amp;u=ba33ed091d293c8e9da8789d491a2c1964c3a53c&amp;v=4" width="20%" alt="The Stata2R Logo, an R overlaid with white squares.">
       </figure>
         <p class="author">Stephen Thompson</p>
         <p class="institute" style="color: #999;">UCL Centre for Advanced Research Computing and UCL Innovative Clinical Trials Unit</p>
-        <p class="date">2026-07-10</p>
+        <p class="date">2026-08-25</p>
   </section>
 <section id="workshop-plan" class="slide level2">
 <h2>Workshop Plan</h2>
@@ -292,30 +298,30 @@
 <h2>What’s in a plugin</h2>
 <p>A plugin is a collection of <code>Skills</code></p>
 <p><a href="https://github.com/stata-translations/Stata2R" target="_blank">Plugin Source</a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href=""></a>└── skills</span>
-<span id="cb1-2"><a href=""></a>    ├── add-missing-tests</span>
-<span id="cb1-3"><a href=""></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-4"><a href=""></a>    ├── add-stata-tests-r</span>
-<span id="cb1-5"><a href=""></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-6"><a href=""></a>    ├── hello</span>
-<span id="cb1-7"><a href=""></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-8"><a href=""></a>    ├── pseudocode-to-r</span>
-<span id="cb1-9"><a href=""></a>    │&nbsp;&nbsp; ├── assets</span>
-<span id="cb1-10"><a href=""></a>    │&nbsp;&nbsp; ├── references</span>
-<span id="cb1-11"><a href=""></a>    │&nbsp;&nbsp; │&nbsp;&nbsp; └── language_mappings.md</span>
-<span id="cb1-12"><a href=""></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-13"><a href=""></a>    ├── run-stata</span>
-<span id="cb1-14"><a href=""></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-15"><a href=""></a>    ├── stata-to-pseudocode</span>
-<span id="cb1-16"><a href=""></a>    │&nbsp;&nbsp; ├── assets</span>
-<span id="cb1-17"><a href=""></a>    │&nbsp;&nbsp; ├── references</span>
-<span id="cb1-18"><a href=""></a>    │&nbsp;&nbsp; └── SKILL.md</span>
-<span id="cb1-19"><a href=""></a>    └── translation-strategy</span>
-<span id="cb1-20"><a href=""></a>        ├── assets</span>
-<span id="cb1-21"><a href=""></a>        ├── references</span>
-<span id="cb1-22"><a href=""></a>        └── SKILL.md</span>
-<span id="cb1-23"><a href=""></a></span>
-<span id="cb1-24"><a href=""></a>15 directories, 8 files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="" aria-label="1"></a>└── skills</span>
+<span id="cb1-2"><a href="" aria-label="2"></a>    ├── add-missing-tests</span>
+<span id="cb1-3"><a href="" aria-label="3"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
+<span id="cb1-4"><a href="" aria-label="4"></a>    ├── add-stata-tests-r</span>
+<span id="cb1-5"><a href="" aria-label="5"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
+<span id="cb1-6"><a href="" aria-label="6"></a>    ├── hello</span>
+<span id="cb1-7"><a href="" aria-label="7"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
+<span id="cb1-8"><a href="" aria-label="8"></a>    ├── pseudocode-to-r</span>
+<span id="cb1-9"><a href="" aria-label="9"></a>    │&nbsp;&nbsp; ├── assets</span>
+<span id="cb1-10"><a href="" aria-label="10"></a>    │&nbsp;&nbsp; ├── references</span>
+<span id="cb1-11"><a href="" aria-label="11"></a>    │&nbsp;&nbsp; │&nbsp;&nbsp; └── language_mappings.md</span>
+<span id="cb1-12"><a href="" aria-label="12"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
+<span id="cb1-13"><a href="" aria-label="13"></a>    ├── run-stata</span>
+<span id="cb1-14"><a href="" aria-label="14"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
+<span id="cb1-15"><a href="" aria-label="15"></a>    ├── stata-to-pseudocode</span>
+<span id="cb1-16"><a href="" aria-label="16"></a>    │&nbsp;&nbsp; ├── assets</span>
+<span id="cb1-17"><a href="" aria-label="17"></a>    │&nbsp;&nbsp; ├── references</span>
+<span id="cb1-18"><a href="" aria-label="18"></a>    │&nbsp;&nbsp; └── SKILL.md</span>
+<span id="cb1-19"><a href="" aria-label="19"></a>    └── translation-strategy</span>
+<span id="cb1-20"><a href="" aria-label="20"></a>        ├── assets</span>
+<span id="cb1-21"><a href="" aria-label="21"></a>        ├── references</span>
+<span id="cb1-22"><a href="" aria-label="22"></a>        └── SKILL.md</span>
+<span id="cb1-23"><a href="" aria-label="23"></a></span>
+<span id="cb1-24"><a href="" aria-label="24"></a>15 directories, 8 files</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="whats-in-a-skill" class="slide level2">
 <h2>What’s in a Skill</h2>
@@ -542,7 +548,7 @@
         margin: 0.15,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -616,13 +622,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
