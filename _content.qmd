@@ -18,7 +18,7 @@
 
  - Multiyear funding for ARC to support ICTU to improve code quality and sharing.
 
-## ARC / ICTU Collaboration - Stata Translation
+## Motivation - Stata Translation
 
  - A lot of code is written in Stata
  - Stata is a highly regarded and robust statistical analysis software
@@ -26,13 +26,36 @@
  - But Stata itself is not opensource and has limited wider impact.
  - Could you increase software impact by translating to other languages?
 
-## Stata and R
+## Motivation Stata and R
 
  - R Journal Impact (Scimago Journal Ranking: 0.483) (H-Index 71)
  - Stata Journal Impact (Scimago Journal Ranking: 1.699) (H-Index 123)
  - Stata Language on GitHub 18.4 K ~average 22 stars (median 6) high impact stata packages reghdfe 248 stars, ietoolkit 244
  - R Language on GithHub 1.1 M ~ average 521 start (median 313) 
- 
+ - Conclusion - there is likely merit in translation Stata to R.
+
+## Stata2R Practicalities
+
+ - Needs:  
+   - Language Expertise (Stata and R)
+   - Domain Expertise (Statiisctics)
+   - Time (funding)
+
+ - Can we leverage advances in agentic code translation?
+
+## Some Things 
+
+```{=html}
+<iframe src="file:///home/thompson/software/stata-translation/talks-arc-forum/results/LM Code Translation Papers (Copy).html" allowtransparency="true" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
+```
+
+## Some Other Things
+
+```{=html}
+<iframe src="https://raw.githubusercontent.com/stata-translations/talks-arc-forum/refs/heads/arc-forum-slides/results/Post-Workshop%20Survey_%20Agreement%20Questions.html" allowtransparency="true" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
+```
+
+
 ## Some Local Images
 
 ![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/im_00.jpg){fig-alt="A locally stored file" width="50%"}
