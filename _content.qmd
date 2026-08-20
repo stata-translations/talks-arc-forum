@@ -17,6 +17,9 @@
 ## ARC / ICTU Collaboration
 
  - Multiyear funding for ARC to support ICTU to improve code quality and sharing.
+ - Outputs: 
+   - "Using Large Language Models and Coding Agents to Translate Stata Packages: Benefits and Risks" [Stata Con, London 4th September]   (https://stata-uk.com/stata-uk-2026.html)
+   - "Code Translation using Large Language Models: What's the role of the Research Software Engineer?" [RSE Con, September 2026](https://virtual.oxfordabstracts.com/event/76908/submission/92)
 
 ## Motivation - Stata Translation
 
@@ -46,8 +49,11 @@
 ## Some Things 
 
 ```{=html}
-<iframe src="file:///home/thompson/software/stata-translation/talks-arc-forum/results/LM Code Translation Papers (Copy).html" allowtransparency="true" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
-```
+  <a href="https://raw.githubusercontent.com/stata-translations/talks-arc-forum/refs/heads/arc-forum-slides/results/LM%20Code%20Translation%20Papers%20(Copy).html">
+    <img src="images/paper_count.png", alt="A plot showing a rapid increase in pubications references Lanugage models and code translations (to 65 in 2025)>
+  </a>
+```  
+
 
 ## Some Other Things
 
