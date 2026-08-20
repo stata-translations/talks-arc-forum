@@ -49,7 +49,7 @@
 ## Some Things 
 
 ```{=html}
-  <a href="https://raw.githubusercontent.com/stata-translations/talks-arc-forum/refs/heads/arc-forum-slides/results/LM%20Code%20Translation%20Papers%20(Copy).html">
+  <a href="https://stata-translations.github.io/talks-arc-forum/results/LM%20Code%20Translation%20Papers%20(Copy).html">
     <img src="images/paper_count.png", alt="A plot showing a rapid increase in pubications references Lanugage models and code translations (to 65 in 2025)>
   </a>
 ```  
@@ -58,7 +58,7 @@
 ## Some Other Things
 
 ```{=html}
-<iframe src="https://raw.githubusercontent.com/stata-translations/talks-arc-forum/refs/heads/arc-forum-slides/results/Post-Workshop%20Survey_%20Agreement%20Questions.html" allowtransparency="true" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://stata-translations.github.io/talks-arc-forum/results/LM%20Code%20Translation%20Papers%20(Copy).html" allowtransparency="true" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
 
 
