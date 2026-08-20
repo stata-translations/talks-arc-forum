@@ -9,9 +9,14 @@
 
 ## Background
 ![](images/clinical_trials_unit.png){fig-alt="A screenshot of the Innovative Clinical Trials Unit website" height="280"}
+
  - World leaders in clinical trial design
  - Robust and tested statistics to support clinician in trial design
  - 2nd Floor of 90HH
+
+## Some Local Images
+
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/im_00.jpg){fig-alt="A locally stored file" width="50%"}
 
 ## Workshop Times
 | Time | Content |
