@@ -1,10 +1,17 @@
-## Workshop Plan
+## Today's Talk
 
-| Time | Content |
-|------|---------|
-| 13:00 to 13:20 | Introduction <br> Fill in [Pre Workshop Surveys](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuNcJ7ofdGhDpRexUha3NYhUMU5QQ000NVpFTVRKRTEzRDRCQ0w4V05XMS4u){target="_blank"} <br> Check Pre-Requisites |
-| 13:20 to 13:40 | Talk Through of Plugin Architecture <br> What to Consider When Translating Code.|
-| 13:40 to 14:50 | Interactively translate Stata packages to other languages. (Different packages, same workflow)|
+ - Brief Introduction (Talk/Stephen/Toby)
+ - Background (Collaboration with Clinical Trials Unit)
+ - Code Translation Motivation
+ - Code Translation Mechanics
+ - Workshop Results and Next Steps
+
+
+## Background
+![](images/clinical_trials_unit.png){fig-alt="A screenshot of the Innovative Clinical Trials Unit website" height="280"}
+ - World leaders in clinical trial design
+ - Robust and tested statistics to support clinician in trial design
+ - 2nd Floor of 90HH
 
 ## Workshop Times
 | Time | Content |
@@ -29,7 +36,6 @@
 
 5 minutes to Fill in [Pre Workshop Surveys](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuNcJ7ofdGhDpRexUha3NYhUMU5QQ000NVpFTVRKRTEzRDRCQ0w4V05XMS4u){target="_blank"}
 
-![](images/pre-workshop.png){fig-alt="QR Code link to pre-workshop survey" height="280"}
 
 ## Introduction - Claude
 
