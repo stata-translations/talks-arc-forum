@@ -6,6 +6,22 @@
  - Code Translation Mechanics
  - Workshop Results and Next Steps
 
+## Introduction 
+
+ - Me
+ 
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/05.jpg){fig-alt="Toby at ARC" width="20%"}
+
+## Introduction
+{{< video file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/vid00.mp4 width="680" aria-label="It's a video of prime movers passing through the open Erasmus bridge." >}}
+
+## Some Local Images
+
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/00.jpg){fig-alt="Euromast" width="20%"}
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/02.jpg){fig-alt="Tornado" width="20%"}
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/03.jpg){fig-alt="Erasmus Bridge" width="20%"}
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/04.jpg){fig-alt="Maeslant barrier" width="20%"}
+
 
 ## Background
 ![](images/clinical_trials_unit.png){fig-alt="A screenshot of the Innovative Clinical Trials Unit website" height="280"}
@@ -67,10 +83,6 @@
 ```
 
 
-
-## Some Local Images
-
-![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/im_00.jpg){fig-alt="A locally stored file" width="50%"}
 
 ## Workshop Times
 | Time | Content |
