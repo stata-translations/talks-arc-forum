@@ -69,20 +69,105 @@
     <img src="images/paper_count.png", alt="A plot showing a rapid increase in pubications references Lanugage models and code translations (to 65 in 2025)">
   </a>
 ```  
-
-
-## What People Wanted from Workshop
+## Pre-Workshop
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/what_they_wanted.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="The third blood vessel game."></iframe>
 ```
-## Post Workshop Survey
+
+## Pre-Workshop
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/was_workshop_useful.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-languages.html" title="The third blood vessel game."></iframe>
+```
+## Pre-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata_fluency.html" title="The third blood vessel game."></iframe>
+```
+## Pre-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="The third blood vessel game."></iframe>
+```
+## Pre-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre_expectations.html" title="The third blood vessel game."></iframe>
 ```
 
+## Post-Workshop
 
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_concerns_wordcloud.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_analysis.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_infrastructure.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_interaction.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_pseudocode.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_reliability.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_target_language.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_testing.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_time.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_vs_effort.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_workshop_useful.html" title="The third blood vessel game."></iframe>
+```
 
 ## Workshop Times
 | Time | Content |
