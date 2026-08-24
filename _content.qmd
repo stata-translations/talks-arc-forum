@@ -62,13 +62,37 @@
 
  - Can we leverage advances in agentic code translation?
 
-## Some Things 
+## A lot of recent work on code translation using language models.
 
 ```{=html}
   <a href="https://stata-translations.github.io/workshop-results/what_they_wanted.html">
     <img src="images/paper_count.png", alt="A plot showing a rapid increase in pubications references Lanugage models and code translations (to 65 in 2025)">
   </a>
 ```  
+
+## Writing a Claude Plugin 
+
+  - In this case, the plugin is a collection of skills, defined in markdown
+
+```{=html}
+  <a href="https://github.com/stata-translations/Stata2R/tree/main/stata-translation" target="_blank">Link to Stata-translation plugin</a>
+```
+
+## Run as an interactive workshop
+
+```{=html}
+< a href="https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md#workshop-format" target="_blank"> The work shop format.></a>
+```
+
+
+
+## Pre-Workshop Current Roles
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="Answers to survey question on current roles."></iframe>
+```
+
+
+
 ## Pre-Workshop
 
 ```{=html}
