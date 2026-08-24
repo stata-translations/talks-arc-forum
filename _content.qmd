@@ -22,12 +22,12 @@
 ## Architecture Mimicry / Guess the European City
 
 ![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/00.jpg){fig-alt="Euromast" width="35%"}
-![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/02.jpg){fig-alt="Tornado" width="35%"}
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/04.jpg){fig-alt="Maeslant barrier" width="35%"}
 
 ## Architecture Mimicry / Guess the European City
 
 ![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/03.jpg){fig-alt="Erasmus Bridge" width="35%"}
-![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/04.jpg){fig-alt="Maeslant barrier" width="35%"}
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/02.jpg){fig-alt="Tornado" width="35%"}
 
 ## More Architecture: The Art Depot
 
@@ -35,7 +35,7 @@
 
 ## Awesome Video
 
-{{< video file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/vid00.mp4 width="680" aria-label="It's a video of prime movers passing through the open Erasmus bridge." >}}
+{{< video file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/vid00.mp4 width="1080" aria-label="It's a video of prime movers passing through the open Erasmus bridge." >}}
 
 ## Background - ARC Collaboration with ICTU
 ![](images/clinical_trials_unit.png){fig-alt="A screenshot of the Innovative Clinical Trials Unit website" height="280"}
@@ -100,15 +100,6 @@
    - Research Code translation. 
    - Develop method -> A Claude Plugin.
    - Develop HowTo for Statisticians.
-
-
-## Writing a Claude Plugin 
-
-  - In this case, the plugin is a collection of skills, defined in markdown
-
-```{=html}
-  <a href="https://github.com/stata-translations/Stata2R/tree/main/stata-translation" target="_blank">Link to Stata-translation plugin</a>
-```
 
 ## What's in a plugin
 A plugin is a collection of `Skills`
