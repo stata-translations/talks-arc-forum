@@ -29,6 +29,10 @@
 ![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/03.jpg){fig-alt="Erasmus Bridge" width="35%"}
 ![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/04.jpg){fig-alt="Maeslant barrier" width="35%"}
 
+## More Architecture: The Art Depot
+
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/06.jpg){fig-alt="Maeslant barrier" width="35%"}
+
 ## Awesome Video
 
 {{< video file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/vid00.mp4 width="680" aria-label="It's a video of prime movers passing through the open Erasmus bridge." >}}
@@ -44,41 +48,59 @@
 
  - Multiyear funding for ARC to support ICTU to improve code quality and sharing.
  - Outputs: 
-   - "Using Large Language Models and Coding Agents to Translate Stata Packages: Benefits and Risks" [Stata Con, London Next Week](https://stata-uk.com/stata-uk-2026.html)
+   - "Using Large Language Models and Coding Agents to Translate Stata Packages: Benefits and Risks" [Stata Con, London, Next Week](https://stata-uk.com/stata-uk-2026.html)
    - "Code Translation using Large Language Models: What's the role of the Research Software Engineer?" [RSE Con, September 2026](https://virtual.oxfordabstracts.com/event/76908/submission/92)
 
 ## Motivation - Stata Translation
 
- - A lot of code is written in Stata
- - Stata is a highly regarded and robust statistical analysis software
- - Publication in Stata journal requires testing/documentation etc.
- - But Stata itself is not opensource and has limited wider impact.
+ - Stata - commercial (closed source) statistical analysis software
+   - economics, sociology, health
+ - Researchers can publish bespoke packages. 
+   - Stata journal enforces testing/documentation etc.
+ - Compared to Python or R the software impact is limited. 
  - Could you increase software impact by translating to other languages?
 
-## Motivation Stata and R
+## Motivation Stata and R (Citation Metrics)
 
  - R Journal Impact (Scimago Journal Ranking: 0.483) (H-Index 71)
  - Stata Journal Impact (Scimago Journal Ranking: 1.699) (H-Index 123)
- - Stata Language on GitHub 18.4 K ~average 22 stars (median 6) high impact stata packages reghdfe 248 stars, ietoolkit 244
- - R Language on GithHub 1.1 M ~ average 521 start (median 313) 
- - Conclusion - there is likely merit in translation Stata to R.
 
-## Stata2R Practicalities
+## Motivation Stata and R (Software Metrics)
 
- - Needs:  
+ - Stata Language on GitHub 18.4K repositories ~ median 6 stars 
+   - High impact Stata packages reghdfe 248 stars, ietoolkit 244
+ - R Language on GithHub 1.1M repositories ~ median 313 stars 
+
+## Motivation Stata and R - Creating Impact
+
+ - Conclusion. Translations;
+   - may not have big impact on paper citations.
+   - likely to increase the software impact (re-use, contributions, maintenance) of your software.
+
+## Stata2R: Practicalities
+
+ - Pre-requisites:  
+   - Well written/documented/tested Stata code 👍
    - Language Expertise (Stata and R)
-   - Domain Expertise (Statiisctics)
+   - Domain Expertise (Statistics)
    - Time (funding)
 
  - Can we leverage advances in agentic code translation?
 
-## A lot of recent work on code translation using language models.
+## Rapidly growing work on code translation using language models.
 
-```{=html}
-  <a href="https://stata-translations.github.io/workshop-results/what_they_wanted.html">
-    <img src="images/paper_count.png", alt="A plot showing a rapid increase in pubications references Lanugage models and code translations (to 65 in 2025)">
-  </a>
-```  
+![](images/paper_count.png){fig-alt="A plot showing a rapid increase in pubications references Lanugage models and code translations (to 65 in 2025)" width="65%"}
+
+## Stata2R: Practicalities
+
+ - Resources:
+   - Departmental subscription to Claude Code.
+   - Approx 4 weeks RSE time.
+ - Plan:
+   - Research Code translation. 
+   - Develop method -> A Claude Plugin.
+   - Develop HowTo for Statisticians.
+
 
 ## Writing a Claude Plugin 
 
@@ -88,157 +110,8 @@
   <a href="https://github.com/stata-translations/Stata2R/tree/main/stata-translation" target="_blank">Link to Stata-translation plugin</a>
 ```
 
-## Run as an interactive workshop
-
-
-```{=html}
-<a href="https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md#workshop-format" target="_blank"> The work shop format.</a>
-```
-
-
-
-## Pre-Workshop Current Roles
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="Answers to survey question on current roles."></iframe>
-```
-
-
-
-## Pre-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="The third blood vessel game."></iframe>
-```
-
-## Pre-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-languages.html" title="The third blood vessel game."></iframe>
-```
-## Pre-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata_fluency.html" title="The third blood vessel game."></iframe>
-```
-## Pre-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="The third blood vessel game."></iframe>
-```
-## Pre-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre_expectations.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_concerns_wordcloud.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_analysis.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_infrastructure.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_interaction.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_pseudocode.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_reliability.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_target_language.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_testing.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_time.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_vs_effort.html" title="The third blood vessel game."></iframe>
-```
-
-## Post-Workshop
-
-```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_workshop_useful.html" title="The third blood vessel game."></iframe>
-```
-
-## Workshop Times
-| Time | Content |
-|------|---------|
-| 14:50 to 15:10 | 🍰 Break 🍰 |
-| 15:00 | Fire Alarm Test | 
-
-## Workshop Times
-| Time | Content |
-|------|---------|
-| 15:10 to 16:30 | Run translated Code <br> Compare different translations. <br> Assess code translation for post workshop survey. |
-| 16:30 to 17:00 | Wrap-up <br> Discussion <br> Fill in [post work shop surveys](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwkgtFALcEfRKnhSRePBd-9dUQjI1SzdIT1pROVBHVDJSNDU3QUNZVTBGTiQlQCN0PWcu){target="_blank"}. |
-
-## Introduction - [Prerequisites](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md#essential){target="_blank"}
-
- - Claude Code (CLI or Desktop App)
- - Stata
- - R
- - git + github account
-
-## Introduction - Time for Survey
-
-5 minutes to Fill in [Pre Workshop Surveys](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuNcJ7ofdGhDpRexUha3NYhUMU5QQ000NVpFTVRKRTEzRDRCQ0w4V05XMS4u){target="_blank"}
-
-
-## Introduction - Claude
-
-[Demo of Claude Code CLI and App.](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md#setup-and-installation)
-
-
 ## What's in a plugin
 A plugin is a collection of `Skills`
-
-[Plugin Source](https://github.com/stata-translations/Stata2R){target="_blank"}
-
 
 ```md
 └── skills
@@ -268,33 +141,146 @@ A plugin is a collection of `Skills`
 ```
 
 ## What's in a Skill
-Plain text:
-[Plugin Source](https://github.com/stata-translations/Stata2R/blob/main/stata-translation/skills/hello/SKILL.md)
 
-## Pause for questions before we start with translation.
+[Skills are Markdown](https://github.com/stata-translations/Stata2R/blob/main/stata-translation/skills/)
 
- - Has everyone got a Stata package to work on?
- - Any other questions. 
+ - And easy to install
 
-## Start of interactive Translation Session.
+    ```
+    /plugins marketplace add https://github.com/stata-translations/Stata2R.git
+    /plugin install stata-translation
+    /reload-plugins
+    /stata-translation:hello
+    ```
 
-Run through [workshop](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md#determine-the-code-translation-strategy){target="_blank"}
 
-Break at 14:50
+## Run as an interactive workshop
 
-## Code review and Interactive Running.
+Developed and delivered a [Workshop](https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md) to around 
+10 statisticians. Aims:
 
-We have around 80 minutes to assess the translated code.
+  - Teach them how to use Claude to translate code.
+  - Leverage their skills to help understand how well Claude works.
+    - [Pre Workshop Surveys](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuNcJ7ofdGhDpRexUha3NYhUMU5QQ000NVpFTVRKRTEzRDRCQ0w4V05XMS4u)
+    - [Post work shop survey](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwkgtFALcEfRKnhSRePBd-9dUQjI1SzdIT1pROVBHVDJSNDU3QUNZVTBGTiQlQCN0PWcu)
 
- - Can you run the translated code and get equivalent results to Stata?
- - How does your translation compare to other peoples?
- - Work through the questions in the [post work shop survey](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwkgtFALcEfRKnhSRePBd-9dUQjI1SzdIT1pROVBHVDJSNDU3QUNZVTBGTiQlQCN0PWcu){target="_blank"}. (If you assessed more than one package you can submit multiple results).
- 
-  ![](images/post-workshop.png){fig-alt="QR Code link to post-workshop survey" height="180"}
+## Results: Brief
 
-## Wrap up and Discussion.
+  - Claude can translate code and appears to give sensible results.
+  - Participants were generally happy and eager to pursue this further.
+    - Statisticians take the accuracy of the software very seriously. 
 
- - Any general questions. 
- - Fill in the [post work shop survey](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwkgtFALcEfRKnhSRePBd-9dUQjI1SzdIT1pROVBHVDJSNDU3QUNZVTBGTiQlQCN0PWcu){target="_blank"} before leaving if you haven't already done so.
-  
-  ![](images/post-workshop.png){fig-alt="QR Code link to post-workshop survey" height="180"}
+
+## Pre-Workshop: Current Roles
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="Answers to survey question on current roles."></iframe>
+```
+
+## Pre-Workshop: Stata Fluency
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata_fluency.html" title="The third blood vessel game."></iframe>
+```
+
+## Pre-Workshop: Stata and R Fluency
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="The third blood vessel game."></iframe>
+```
+
+## Pre-Workshop: Language Correlation
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-languages.html" title="The third blood vessel game."></iframe>
+```
+## Pre-Workshop: Expectations Word Cloud
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre_expectations.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Concerns Work Cloud
+
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_concerns_wordcloud.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Ideas for Improvements / Future Work.
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (analysis).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_analysis.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (infrastructure).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_infrastructure.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (interaction required).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_interaction.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (pseudocode).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_pseudocode.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (reliability).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_reliability.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (target language quality).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_target_language.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (testing quality).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_testing.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (Time Taken).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_time.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Skills assessment (Documentation Quality).
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_model_vs_effort.html" title="The third blood vessel game."></iframe>
+```
+
+## Post-Workshop: Workshop Quality
+
+```{=html}
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_workshop_useful.html" title="The third blood vessel game."></iframe>
+```
+
+## Summary
+
+  - Claude can translate code.
+  - The plugin provides some structure, but human intervention is still required to keep Claude on track.
+  - Translation depends on documentation and testing as well as source code quality.
+  - Results are non deterministic.
+  - Future work: Publish to CRAN.
+
+## With thanks to:
+
+  Asif Tamuri, James Carpenter, Matthew Burnell, David Fisher, Babak Choodri-Oskooei, Matteo Quartagno, Becky Turner, Tra My Pham, Guilio Scola, Michelle Clements, Ian White, Samina Begum, Henry Bern, Akshay Jagadeesh, David Perez-Suarez, Haroon Chughtai, and Toby.
