@@ -80,8 +80,9 @@
 
 ## Run as an interactive workshop
 
+
 ```{=html}
-< a href="https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md#workshop-format" target="_blank"> The work shop format.></a>
+<a href="https://github.com/stata-translations/Stata2R/blob/main/docs/workshop.md#workshop-format" target="_blank"> The work shop format.</a>
 ```
 
 
