@@ -195,13 +195,13 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_concerns_wordcloud.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_concerns_wordcloud.html" title="A word cloud of answers to the post workshop question 'What concerns (if any) do you have with using large language models for code translation? Notabale answers include 'Fear of hidden errors' and 'Testing and output control'"></iframe>
 ```
 
 ## Post-Workshop: Ideas for Improvements / Future Work.
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/post_improvements.html" title="A word cloud of answers to the question "What improvements would you suggest? Most respondonts wanted to see more work on 'verifying correctness'"></iframe>
 ```
 
 ## Post-Workshop: Skills assessment (analysis).
