@@ -31,7 +31,7 @@
 
 ## More Architecture: The Art Depot
 
-![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/06.jpg){fig-alt="Maeslant barrier" width="35%"}
+![](file:///home/thompson/software/stata-translation/talks-arc-forum/local_images/06.jpg){fig-alt="The Art Depot" width="35%"}
 
 ## Awesome Video
 
@@ -58,7 +58,7 @@
  - Researchers can publish bespoke packages. 
    - Stata journal enforces testing/documentation etc.
  - Compared to Python or R the software impact is limited. 
- - Could you increase software impact by translating to other languages?
+ - Can we increase software impact by translating to other languages?
 
 ## Motivation Stata and R (Citation Metrics)
 
@@ -85,7 +85,7 @@
    - Domain Expertise (Statistics)
    - Time (funding)
 
- - Can we leverage advances in agentic code translation?
+ - Can we leverage advances in agent based code translation?
 
 ## Rapidly growing work on code translation using language models.
 
@@ -165,30 +165,30 @@ Developed and delivered a [Workshop](https://github.com/stata-translations/Stata
 ## Pre-Workshop: Current Roles
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="Answers to survey question on current roles."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-roles.html" title="Answers to survey question on current roles. Total of 9 statisticians, 5 researchers, 1 research software engineer, one Data Scientist."></iframe>
 ```
 
 ## Pre-Workshop: Stata Fluency
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata_fluency.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata_fluency.html" title="The participants self reported stata fluency. 8 were fluent, 4 Occasional, 1 never."></iframe>
 ```
 
 ## Pre-Workshop: Stata and R Fluency
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-stata-vs-r_fluency.html" title="X-Y plot of Stata vs R Fluency. No one was fluent in both."></iframe>
 ```
 
 ## Pre-Workshop: Language Correlation
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-languages.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre-languages.html" title="Correlation between language fluency. Fluency in Stata was negatively correlated with fluency in R, Python, and Matlab."></iframe>
 ```
 ## Pre-Workshop: Expectations Word Cloud
 
 ```{=html}
-<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre_expectations.html" title="The third blood vessel game."></iframe>
+<iframe width="100%" height="100%" src="https://stata-translations.github.io/workshop-results/pre_expectations.html" title="A word cloud of answers to the free text question 'Is there anything specific you want to get out of the workshop?' The dominant phrase is 'Stata to R Translation' Other phrases include 'LLM Workflow best practices' and 'Exploring Claude's Capabilities'"></iframe>
 ```
 
 ## Post-Workshop: Concerns Work Cloud
